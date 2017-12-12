@@ -470,14 +470,26 @@ namespace Fund
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
-            form4.Show();
+            if (File.Exists("..\\..\\stock\\result\\result_latest.txt")){
+                Form4 form4 = new Form4();
+                form4.Show();
+            }else{
+                MessageBox.Show("您需要先点击\"更新数据\"按钮，并等待数据更新完成后，才能查看排行。");
+            }
         }
+
 
         private void button8_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            if (File.Exists("..\\..\\stock\\result\\result_2017q3.txt"))
+            {
+                Form5 form5 = new Form5();
             form5.Show();
+            }
+            else
+            {
+                MessageBox.Show("您需要先点击\"更新数据\"按钮，并等待数据更新完成后，才能查看排行。");
+            }
         }
 
         private void getDetailHTML(string year,string month,string quarter)
@@ -517,9 +529,15 @@ namespace Fund
 
         private void button10_Click(object sender, EventArgs e)
         {
-            Form6 form6 = new Form6();
-            form6.Show();
-        }
+            if (File.Exists("..\\..\\stock\\result\\result_2017q2.txt"))
+            {
+                Form6 form6 = new Form6();
+                form6.Show();
+            }else
+            {
+                MessageBox.Show("您需要先点击\"更新数据\"按钮，并等待数据更新完成后，才能查看排行。");
+            }
+}
 
         void getData(string folderName, string date,int k) {
             List<string> names = getFile(folderName);
@@ -669,8 +687,14 @@ namespace Fund
         }
 
         private void button12_Click(object sender, EventArgs e) {
-            Form7 form7 = new Form7();
-            form7.Show();
+            if (File.Exists("..\\..\\stock\\result\\result_2017q2.txt"))
+            {
+                Form7 form7 = new Form7();
+                form7.Show();
+            }else
+            {
+                MessageBox.Show("您需要先点击\"更新数据\"按钮，并等待数据更新完成后，才能查看排行。");
+            }
         }
 
         void createFolder(string path)
@@ -700,7 +724,6 @@ namespace Fund
             deleteFiles("..\\..\\stock\\latest\\");
             deleteFiles("..\\..\\stock\\2017q3\\");
             deleteFiles("..\\..\\stock\\2017q2\\");
-
         }
     }
 
