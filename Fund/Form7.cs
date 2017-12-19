@@ -41,21 +41,21 @@ namespace Fund
                     dataGridView1.Rows[i].Cells[0].Value = i + 1;
                     dataGridView1.Rows[i].Cells[1].Value = all1[i * 2];
 
+                    double d1 = Convert.ToDouble(all1[i * 2 + 1]);
+                    d1 = Math.Round(d1, 2);
+                    dataGridView1.Rows[i].Cells[2].Value = d1;
+                });
+                this.Invoke((EventHandler)delegate
+                {
                     dataGridView2.Rows.Add(row2);
                     dataGridView2.Rows[i].Cells[0].Value = i + 1;
                     dataGridView2.Rows[i].Cells[1].Value = all2[i * 2];
 
-                    double d1 = Convert.ToDouble(all1[i * 2 + 1]);
-                    d1 = Math.Round(d1, 2);
-                    dataGridView1.Rows[i].Cells[2].Value = d1;
-
                     double d2 = Convert.ToDouble(all2[i * 2 + 1]);
                     d2 = Math.Round(d2, 2);
                     dataGridView2.Rows[i].Cells[2].Value = d2;
-
                 });
-
-                }
+            }
             }
 
         string Read(string fileName)
