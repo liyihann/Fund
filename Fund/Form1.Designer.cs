@@ -30,23 +30,23 @@ namespace Fund
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.code = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.abbreviation = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IOPV = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ＡＮＶ = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Rootvole = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.oneweek = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.onemonth = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.threemonths = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sixmonths = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.oneyear = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.twoyears = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.threeyears = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.thisyear = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.create = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.handlingcharge = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -64,6 +64,23 @@ namespace Fund
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
+            this.skinEngine1 = new Sunisoft.IrisSkin.SkinEngine();
+            this.code = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.abbreviation = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IOPV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ＡＮＶ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Rootvole = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.oneweek = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.onemonth = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.threemonths = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sixmonths = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.oneyear = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.twoyears = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.threeyears = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.thisyear = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.create = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.handlingcharge = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,105 +113,6 @@ namespace Fund
             this.dataGridView1.Size = new System.Drawing.Size(871, 429);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
-            // 
-            // code
-            // 
-            this.code.HeaderText = "基金代码";
-            this.code.Name = "code";
-            this.code.ReadOnly = true;
-            this.code.Width = 120;
-            // 
-            // abbreviation
-            // 
-            this.abbreviation.HeaderText = "基金简称";
-            this.abbreviation.Name = "abbreviation";
-            this.abbreviation.ReadOnly = true;
-            this.abbreviation.Width = 120;
-            // 
-            // date
-            // 
-            this.date.HeaderText = "日期";
-            this.date.Name = "date";
-            this.date.ReadOnly = true;
-            this.date.Width = 70;
-            // 
-            // IOPV
-            // 
-            this.IOPV.HeaderText = "单位净值";
-            this.IOPV.Name = "IOPV";
-            this.IOPV.ReadOnly = true;
-            // 
-            // ＡＮＶ
-            // 
-            this.ＡＮＶ.HeaderText = "累计净值";
-            this.ＡＮＶ.Name = "ＡＮＶ";
-            this.ＡＮＶ.ReadOnly = true;
-            // 
-            // Rootvole
-            // 
-            this.Rootvole.HeaderText = "日增长率";
-            this.Rootvole.Name = "Rootvole";
-            this.Rootvole.ReadOnly = true;
-            // 
-            // oneweek
-            // 
-            this.oneweek.HeaderText = "近1周";
-            this.oneweek.Name = "oneweek";
-            this.oneweek.ReadOnly = true;
-            // 
-            // onemonth
-            // 
-            this.onemonth.HeaderText = "近1月";
-            this.onemonth.Name = "onemonth";
-            this.onemonth.ReadOnly = true;
-            // 
-            // threemonths
-            // 
-            this.threemonths.HeaderText = "近3月";
-            this.threemonths.Name = "threemonths";
-            this.threemonths.ReadOnly = true;
-            // 
-            // sixmonths
-            // 
-            this.sixmonths.HeaderText = "近6月";
-            this.sixmonths.Name = "sixmonths";
-            this.sixmonths.ReadOnly = true;
-            // 
-            // oneyear
-            // 
-            this.oneyear.HeaderText = "近1年";
-            this.oneyear.Name = "oneyear";
-            this.oneyear.ReadOnly = true;
-            // 
-            // twoyears
-            // 
-            this.twoyears.HeaderText = "近2年";
-            this.twoyears.Name = "twoyears";
-            this.twoyears.ReadOnly = true;
-            // 
-            // threeyears
-            // 
-            this.threeyears.HeaderText = "近3年";
-            this.threeyears.Name = "threeyears";
-            this.threeyears.ReadOnly = true;
-            // 
-            // thisyear
-            // 
-            this.thisyear.HeaderText = "今年来";
-            this.thisyear.Name = "thisyear";
-            this.thisyear.ReadOnly = true;
-            // 
-            // create
-            // 
-            this.create.HeaderText = "成立来";
-            this.create.Name = "create";
-            this.create.ReadOnly = true;
-            // 
-            // handlingcharge
-            // 
-            this.handlingcharge.HeaderText = "手续费";
-            this.handlingcharge.Name = "handlingcharge";
-            this.handlingcharge.ReadOnly = true;
             // 
             // button2
             // 
@@ -238,9 +156,9 @@ namespace Fund
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(231, 452);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 15);
+            this.label1.Size = new System.Drawing.Size(31, 15);
             this.label1.TabIndex = 7;
-            this.label1.Text = "1/74";
+            this.label1.Text = "1/1";
             // 
             // label2
             // 
@@ -358,6 +276,159 @@ namespace Fund
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
+            // skinEngine1
+            // 
+            this.skinEngine1.@__DrawButtonFocusRectangle = true;
+            this.skinEngine1.DisabledButtonTextColor = System.Drawing.Color.Gray;
+            this.skinEngine1.DisabledMenuFontColor = System.Drawing.SystemColors.GrayText;
+            this.skinEngine1.InactiveCaptionColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.skinEngine1.SerialNumber = "";
+            this.skinEngine1.SkinFile = null;
+            // 
+            // code
+            // 
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.code.DefaultCellStyle = dataGridViewCellStyle1;
+            this.code.HeaderText = "基金代码";
+            this.code.Name = "code";
+            this.code.ReadOnly = true;
+            this.code.Width = 80;
+            // 
+            // abbreviation
+            // 
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.abbreviation.DefaultCellStyle = dataGridViewCellStyle2;
+            this.abbreviation.HeaderText = "基金简称";
+            this.abbreviation.Name = "abbreviation";
+            this.abbreviation.ReadOnly = true;
+            this.abbreviation.Width = 120;
+            // 
+            // date
+            // 
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.date.DefaultCellStyle = dataGridViewCellStyle3;
+            this.date.HeaderText = "日期";
+            this.date.Name = "date";
+            this.date.ReadOnly = true;
+            this.date.Width = 70;
+            // 
+            // IOPV
+            // 
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.IOPV.DefaultCellStyle = dataGridViewCellStyle4;
+            this.IOPV.HeaderText = "单位净值";
+            this.IOPV.Name = "IOPV";
+            this.IOPV.ReadOnly = true;
+            this.IOPV.Width = 80;
+            // 
+            // ＡＮＶ
+            // 
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ＡＮＶ.DefaultCellStyle = dataGridViewCellStyle5;
+            this.ＡＮＶ.HeaderText = "累计净值";
+            this.ＡＮＶ.Name = "ＡＮＶ";
+            this.ＡＮＶ.ReadOnly = true;
+            this.ＡＮＶ.Width = 80;
+            // 
+            // Rootvole
+            // 
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Rootvole.DefaultCellStyle = dataGridViewCellStyle6;
+            this.Rootvole.HeaderText = "日增长率";
+            this.Rootvole.Name = "Rootvole";
+            this.Rootvole.ReadOnly = true;
+            this.Rootvole.Width = 80;
+            // 
+            // oneweek
+            // 
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.oneweek.DefaultCellStyle = dataGridViewCellStyle7;
+            this.oneweek.HeaderText = "近1周";
+            this.oneweek.Name = "oneweek";
+            this.oneweek.ReadOnly = true;
+            this.oneweek.Width = 70;
+            // 
+            // onemonth
+            // 
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.onemonth.DefaultCellStyle = dataGridViewCellStyle8;
+            this.onemonth.HeaderText = "近1月";
+            this.onemonth.Name = "onemonth";
+            this.onemonth.ReadOnly = true;
+            this.onemonth.Width = 70;
+            // 
+            // threemonths
+            // 
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.threemonths.DefaultCellStyle = dataGridViewCellStyle9;
+            this.threemonths.HeaderText = "近3月";
+            this.threemonths.Name = "threemonths";
+            this.threemonths.ReadOnly = true;
+            this.threemonths.Width = 70;
+            // 
+            // sixmonths
+            // 
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.sixmonths.DefaultCellStyle = dataGridViewCellStyle10;
+            this.sixmonths.HeaderText = "近6月";
+            this.sixmonths.Name = "sixmonths";
+            this.sixmonths.ReadOnly = true;
+            this.sixmonths.Width = 70;
+            // 
+            // oneyear
+            // 
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.oneyear.DefaultCellStyle = dataGridViewCellStyle11;
+            this.oneyear.HeaderText = "近1年";
+            this.oneyear.Name = "oneyear";
+            this.oneyear.ReadOnly = true;
+            this.oneyear.Width = 70;
+            // 
+            // twoyears
+            // 
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.twoyears.DefaultCellStyle = dataGridViewCellStyle12;
+            this.twoyears.HeaderText = "近2年";
+            this.twoyears.Name = "twoyears";
+            this.twoyears.ReadOnly = true;
+            this.twoyears.Width = 70;
+            // 
+            // threeyears
+            // 
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.threeyears.DefaultCellStyle = dataGridViewCellStyle13;
+            this.threeyears.HeaderText = "近3年";
+            this.threeyears.Name = "threeyears";
+            this.threeyears.ReadOnly = true;
+            this.threeyears.Width = 70;
+            // 
+            // thisyear
+            // 
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.thisyear.DefaultCellStyle = dataGridViewCellStyle14;
+            this.thisyear.HeaderText = "今年来";
+            this.thisyear.Name = "thisyear";
+            this.thisyear.ReadOnly = true;
+            this.thisyear.Width = 70;
+            // 
+            // create
+            // 
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.create.DefaultCellStyle = dataGridViewCellStyle15;
+            this.create.HeaderText = "成立来";
+            this.create.Name = "create";
+            this.create.ReadOnly = true;
+            this.create.Width = 70;
+            // 
+            // handlingcharge
+            // 
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.handlingcharge.DefaultCellStyle = dataGridViewCellStyle16;
+            this.handlingcharge.HeaderText = "手续费";
+            this.handlingcharge.Name = "handlingcharge";
+            this.handlingcharge.ReadOnly = true;
+            this.handlingcharge.Width = 70;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -393,22 +464,6 @@ namespace Fund
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn code;
-        private System.Windows.Forms.DataGridViewTextBoxColumn abbreviation;
-        private System.Windows.Forms.DataGridViewTextBoxColumn date;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IOPV;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ＡＮＶ;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Rootvole;
-        private System.Windows.Forms.DataGridViewTextBoxColumn oneweek;
-        private System.Windows.Forms.DataGridViewTextBoxColumn onemonth;
-        private System.Windows.Forms.DataGridViewTextBoxColumn threemonths;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sixmonths;
-        private System.Windows.Forms.DataGridViewTextBoxColumn oneyear;
-        private System.Windows.Forms.DataGridViewTextBoxColumn twoyears;
-        private System.Windows.Forms.DataGridViewTextBoxColumn threeyears;
-        private System.Windows.Forms.DataGridViewTextBoxColumn thisyear;
-        private System.Windows.Forms.DataGridViewTextBoxColumn create;
-        private System.Windows.Forms.DataGridViewTextBoxColumn handlingcharge;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
@@ -426,6 +481,23 @@ namespace Fund
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
+        private Sunisoft.IrisSkin.SkinEngine skinEngine1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn code;
+        private System.Windows.Forms.DataGridViewTextBoxColumn abbreviation;
+        private System.Windows.Forms.DataGridViewTextBoxColumn date;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IOPV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ＡＮＶ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Rootvole;
+        private System.Windows.Forms.DataGridViewTextBoxColumn oneweek;
+        private System.Windows.Forms.DataGridViewTextBoxColumn onemonth;
+        private System.Windows.Forms.DataGridViewTextBoxColumn threemonths;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sixmonths;
+        private System.Windows.Forms.DataGridViewTextBoxColumn oneyear;
+        private System.Windows.Forms.DataGridViewTextBoxColumn twoyears;
+        private System.Windows.Forms.DataGridViewTextBoxColumn threeyears;
+        private System.Windows.Forms.DataGridViewTextBoxColumn thisyear;
+        private System.Windows.Forms.DataGridViewTextBoxColumn create;
+        private System.Windows.Forms.DataGridViewTextBoxColumn handlingcharge;
     }
 }
 
