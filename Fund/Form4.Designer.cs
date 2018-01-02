@@ -204,6 +204,8 @@ namespace Fund
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(566, 642);
             this.Controls.Add(this.tabControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form4";
             this.Text = "实时控股总金额排行";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

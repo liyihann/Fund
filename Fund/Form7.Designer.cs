@@ -30,22 +30,22 @@ namespace Fund
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.Column_Num_Inc_0 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column_Num_Inc_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -97,8 +97,8 @@ namespace Fund
             // 
             // Column_Num_Inc_0
             // 
-            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Num_Inc_0.DefaultCellStyle = dataGridViewCellStyle33;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Num_Inc_0.DefaultCellStyle = dataGridViewCellStyle1;
             this.Column_Num_Inc_0.HeaderText = "排行";
             this.Column_Num_Inc_0.Name = "Column_Num_Inc_0";
             this.Column_Num_Inc_0.ReadOnly = true;
@@ -106,8 +106,8 @@ namespace Fund
             // 
             // Column_Num_Inc_1
             // 
-            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Num_Inc_1.DefaultCellStyle = dataGridViewCellStyle34;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Num_Inc_1.DefaultCellStyle = dataGridViewCellStyle2;
             this.Column_Num_Inc_1.HeaderText = "股票代码";
             this.Column_Num_Inc_1.Name = "Column_Num_Inc_1";
             this.Column_Num_Inc_1.ReadOnly = true;
@@ -115,8 +115,8 @@ namespace Fund
             // 
             // Column_Num_Inc_2
             // 
-            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Num_Inc_2.DefaultCellStyle = dataGridViewCellStyle35;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Num_Inc_2.DefaultCellStyle = dataGridViewCellStyle3;
             this.Column_Num_Inc_2.HeaderText = "股票名称";
             this.Column_Num_Inc_2.Name = "Column_Num_Inc_2";
             this.Column_Num_Inc_2.ReadOnly = true;
@@ -124,8 +124,8 @@ namespace Fund
             // 
             // Column_Num_Inc_3
             // 
-            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Num_Inc_3.DefaultCellStyle = dataGridViewCellStyle36;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Num_Inc_3.DefaultCellStyle = dataGridViewCellStyle4;
             this.Column_Num_Inc_3.HeaderText = "增持数（万股）";
             this.Column_Num_Inc_3.Name = "Column_Num_Inc_3";
             this.Column_Num_Inc_3.ReadOnly = true;
@@ -150,8 +150,8 @@ namespace Fund
             // 
             // Column_Num_Dec_0
             // 
-            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Num_Dec_0.DefaultCellStyle = dataGridViewCellStyle37;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Num_Dec_0.DefaultCellStyle = dataGridViewCellStyle5;
             this.Column_Num_Dec_0.HeaderText = "排行";
             this.Column_Num_Dec_0.Name = "Column_Num_Dec_0";
             this.Column_Num_Dec_0.ReadOnly = true;
@@ -159,8 +159,8 @@ namespace Fund
             // 
             // Column_Num_Dec_1
             // 
-            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Num_Dec_1.DefaultCellStyle = dataGridViewCellStyle38;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Num_Dec_1.DefaultCellStyle = dataGridViewCellStyle6;
             this.Column_Num_Dec_1.HeaderText = "股票代码";
             this.Column_Num_Dec_1.Name = "Column_Num_Dec_1";
             this.Column_Num_Dec_1.ReadOnly = true;
@@ -168,8 +168,8 @@ namespace Fund
             // 
             // Column_Num_Dec_2
             // 
-            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Num_Dec_2.DefaultCellStyle = dataGridViewCellStyle39;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Num_Dec_2.DefaultCellStyle = dataGridViewCellStyle7;
             this.Column_Num_Dec_2.HeaderText = "股票名称";
             this.Column_Num_Dec_2.Name = "Column_Num_Dec_2";
             this.Column_Num_Dec_2.ReadOnly = true;
@@ -177,8 +177,8 @@ namespace Fund
             // 
             // Column_Num_Dec_3
             // 
-            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Num_Dec_3.DefaultCellStyle = dataGridViewCellStyle40;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Num_Dec_3.DefaultCellStyle = dataGridViewCellStyle8;
             this.Column_Num_Dec_3.HeaderText = "减持数（万股）";
             this.Column_Num_Dec_3.Name = "Column_Num_Dec_3";
             this.Column_Num_Dec_3.ReadOnly = true;
@@ -228,8 +228,8 @@ namespace Fund
             // 
             // Column_Sum_Dec_0
             // 
-            dataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Sum_Dec_0.DefaultCellStyle = dataGridViewCellStyle41;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Sum_Dec_0.DefaultCellStyle = dataGridViewCellStyle9;
             this.Column_Sum_Dec_0.HeaderText = "排行";
             this.Column_Sum_Dec_0.Name = "Column_Sum_Dec_0";
             this.Column_Sum_Dec_0.ReadOnly = true;
@@ -237,8 +237,8 @@ namespace Fund
             // 
             // Column_Sum_Dec_1
             // 
-            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Sum_Dec_1.DefaultCellStyle = dataGridViewCellStyle42;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Sum_Dec_1.DefaultCellStyle = dataGridViewCellStyle10;
             this.Column_Sum_Dec_1.HeaderText = "股票代码";
             this.Column_Sum_Dec_1.Name = "Column_Sum_Dec_1";
             this.Column_Sum_Dec_1.ReadOnly = true;
@@ -246,8 +246,8 @@ namespace Fund
             // 
             // Column_Sum_Dec_2
             // 
-            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Sum_Dec_2.DefaultCellStyle = dataGridViewCellStyle43;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Sum_Dec_2.DefaultCellStyle = dataGridViewCellStyle11;
             this.Column_Sum_Dec_2.HeaderText = "股票名称";
             this.Column_Sum_Dec_2.Name = "Column_Sum_Dec_2";
             this.Column_Sum_Dec_2.ReadOnly = true;
@@ -255,8 +255,8 @@ namespace Fund
             // 
             // Column_Sum_Dec_3
             // 
-            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Sum_Dec_3.DefaultCellStyle = dataGridViewCellStyle44;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Sum_Dec_3.DefaultCellStyle = dataGridViewCellStyle12;
             this.Column_Sum_Dec_3.HeaderText = "减持金额（万元）";
             this.Column_Sum_Dec_3.Name = "Column_Sum_Dec_3";
             this.Column_Sum_Dec_3.ReadOnly = true;
@@ -281,8 +281,8 @@ namespace Fund
             // 
             // Column_Sum_Inc_0
             // 
-            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Sum_Inc_0.DefaultCellStyle = dataGridViewCellStyle45;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Sum_Inc_0.DefaultCellStyle = dataGridViewCellStyle13;
             this.Column_Sum_Inc_0.HeaderText = "排行";
             this.Column_Sum_Inc_0.Name = "Column_Sum_Inc_0";
             this.Column_Sum_Inc_0.ReadOnly = true;
@@ -290,8 +290,8 @@ namespace Fund
             // 
             // Column_Sum_Inc_1
             // 
-            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Sum_Inc_1.DefaultCellStyle = dataGridViewCellStyle46;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Sum_Inc_1.DefaultCellStyle = dataGridViewCellStyle14;
             this.Column_Sum_Inc_1.HeaderText = "股票代码";
             this.Column_Sum_Inc_1.Name = "Column_Sum_Inc_1";
             this.Column_Sum_Inc_1.ReadOnly = true;
@@ -299,8 +299,8 @@ namespace Fund
             // 
             // Column_Sum_Inc_2
             // 
-            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Sum_Inc_2.DefaultCellStyle = dataGridViewCellStyle47;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Sum_Inc_2.DefaultCellStyle = dataGridViewCellStyle15;
             this.Column_Sum_Inc_2.HeaderText = "股票名称";
             this.Column_Sum_Inc_2.Name = "Column_Sum_Inc_2";
             this.Column_Sum_Inc_2.ReadOnly = true;
@@ -308,8 +308,8 @@ namespace Fund
             // 
             // Column_Sum_Inc_3
             // 
-            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column_Sum_Inc_3.DefaultCellStyle = dataGridViewCellStyle48;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column_Sum_Inc_3.DefaultCellStyle = dataGridViewCellStyle16;
             this.Column_Sum_Inc_3.HeaderText = "增持金额（万元）";
             this.Column_Sum_Inc_3.Name = "Column_Sum_Inc_3";
             this.Column_Sum_Inc_3.ReadOnly = true;
@@ -333,6 +333,8 @@ namespace Fund
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1113, 645);
             this.Controls.Add(this.tabControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form7";
             this.Text = "2017Q3比Q2增/减持股数排行";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();

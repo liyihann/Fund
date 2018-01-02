@@ -872,8 +872,6 @@ namespace Fund
             }
         }
 
-
-
         //点击可清除文件夹下已生成的文件，以清理空间
         private void button13_Click(object sender, EventArgs e)
         {
@@ -881,6 +879,11 @@ namespace Fund
             deleteFiles("..\\..\\stock\\latest\\");
             deleteFiles("..\\..\\stock\\2017q3\\");
             deleteFiles("..\\..\\stock\\2017q2\\");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 
